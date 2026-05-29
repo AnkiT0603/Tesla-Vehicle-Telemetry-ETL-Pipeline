@@ -104,6 +104,13 @@ docker compose up
 
 Airflow UI will be available at `http://localhost:8080` with username `airflow` and password `airflow`.
 
+## Sample Output
+
+Running the local ETL sample creates curated Parquet files in `build/curated`:
+
+- `telemetry_enriched.parquet`
+- `vehicle_hourly_metrics.parquet`
+
 ## Snowflake Setup
 
 Run the SQL files in order:
